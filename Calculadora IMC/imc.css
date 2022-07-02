@@ -1,0 +1,81 @@
+* {margin: 0; padding: 0;}
+
+body {
+  font-size: 16px;
+  background-color: #101010;
+}
+
+header {
+  border-bottom: 0.3rem solid #101010;
+  padding: 1.8rem 0rem 0.2rem 0rem;
+  font-size: 17px;
+}
+
+.container {
+  background-color: gold; /*#FFD401*/
+  text-align: center;
+  width: 22.2rem;
+  height: 38.26rem;
+  margin: auto;
+  font-family: serif;
+  border-radius: 0.3rem;
+  box-shadow: 3px 3px 5px black;
+}
+
+p {
+  font-weight: 510;
+  text-align: left;
+  font-size: 1.3em;
+  margin: 1.5rem 0rem;
+}
+
+p input{
+  width: 55%;
+  padding: 5% 4%;
+  border-radius: 0.2rem;
+  border: none;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 510;
+  font-family: serif;
+}
+
+#nome{margin-left: 1.94rem;}
+#altura{margin-left: 1.5rem;}
+#peso{margin-left: 2.77rem;}
+
+#dados{
+  width: 80%;
+  margin: 1rem auto;
+  padding: 0.5rem;
+}
+
+#calcular {
+  font-family: serif;
+  font-weight: 550;
+  font-size: 1.01em; 
+  width: 100%;
+  padding: 0.59rem;
+  margin: 0.5rem 0rem 2rem 0rem;
+  background-color: #101010;
+  color: gold;
+}
+
+#res {
+  background-color: #101010;
+  width: 17.5rem;
+  height: 10rem;
+  border: 1px solid #101010;
+  border-radius: 0.25rem;
+  box-shadow: 1px 2px 5px black;
+  margin: -1rem auto;
+}
+
+#saida {
+  color: gold;
+  font-weight: normal;
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+  padding: 1.8rem 0.5rem;
+}
