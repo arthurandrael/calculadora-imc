@@ -4,6 +4,7 @@ let peso = document.querySelector('#peso')
 let res = document.querySelector('#res')
 
 
+
 function Calcular() {
   let imc = peso.value/(altura.value**2)
   let status = ''
@@ -27,3 +28,4 @@ function Calcular() {
   res.appendChild(saida)
   
 }
+
