@@ -9,6 +9,7 @@ function Calcular() {
   let imc = peso.value/(altura.value**2)
   let status = ''
   
+  
   if(imc < 18.5) {
     status = 'abaixo do peso'
   }
